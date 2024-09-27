@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger deployment on push to the main branch
+      - main  # Trigger deployment on push to main branch
 
 jobs:
   build:
@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
+
+    - name: Setup Git config
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Setup Node.js
       uses: actions/setup-node@v3
@@ -25,7 +30,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to GitHub Pages
-      run: npm run deploy
-      env:
-        GIT_USER: myosa-sensors  # GitHub user name
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token to push to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build  # or ./dist if you’re using AstroWind
