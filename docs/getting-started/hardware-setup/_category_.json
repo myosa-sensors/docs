@@ -1,0 +1,8 @@
+{
+    "label": "Hardware Setup",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Learn how to stack MYOSA boards and Configure them."
+    }
+}

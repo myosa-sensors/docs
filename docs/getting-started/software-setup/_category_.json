@@ -1,0 +1,9 @@
+
+{
+  "label": "Software Setup",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup Arduino IDE, ESP32 Board Manager and BLE App. Additionally you will learn how to add MYOSA Libraries into Arduino IDE."
+  }
+}
