@@ -69,6 +69,13 @@ const config = {
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 title: 'MYOSA',
+                logo: {
+                    alt: 'MYOSA Logo',
+                    src: 'img/logo.svg',
+                    href: 'https://myosa-sensors.org', // Redirect URL when clicking the title/logo
+                    target: '_self', // Ensures it opens in the current tab
+
+                },
                 items: [
                     // {
                     //   type: 'docSidebar',
@@ -86,47 +93,47 @@ const config = {
             },
             footer: {
                 style: 'dark',
-                links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/myosa/myosa',
-                            },
-                        ],
-                    },
-                ],
+                // links: [
+                //     {
+                //         title: 'Docs',
+                //         items: [
+                //             {
+                //                 label: 'Tutorial',
+                //                 to: '/docs/intro',
+                //             },
+                //         ],
+                //     },
+                //     {
+                //         title: 'Community',
+                //         items: [
+                //             {
+                //                 label: 'Stack Overflow',
+                //                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                //             },
+                //             {
+                //                 label: 'Discord',
+                //                 href: 'https://discordapp.com/invite/docusaurus',
+                //             },
+                //             {
+                //                 label: 'Twitter',
+                //                 href: 'https://twitter.com/docusaurus',
+                //             },
+                //         ],
+                //     },
+                //     {
+                //         title: 'More',
+                //         items: [
+                //             {
+                //                 label: 'Blog',
+                //                 to: '/blog',
+                //             },
+                //             {
+                //                 label: 'GitHub',
+                //                 href: 'https://github.com/myosa/myosa',
+                //             },
+                //         ],
+                //     },
+                // ],
                 copyright: `Copyright © ${new Date().getFullYear()} MYOSA. Built with Docusaurus.`,
             },
             prism: {
