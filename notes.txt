@@ -1,0 +1,14 @@
+http://localhost:3000/docs/category/software-setup
+Remove ... in the cards. Only show title not first line.
+
+
+Landing Site
+Get Started redirection and Learn More redirectgion to WIKI
+
+Remove blogs "Find out more content in our Blog" in Landing Page
+
+Remove Discord Community
+
+Remove bottom navigation from Wiki Site
+
+Replace - Hardware Documentation and Code Guide (OLD Upload Sensors Code)
