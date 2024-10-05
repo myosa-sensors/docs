@@ -71,7 +71,7 @@ const config = {
                 title: 'MYOSA',
                 logo: {
                     alt: 'MYOSA Logo',
-                    src: 'img/logo.svg',
+                    src: 'img/logo-256.png',
                     href: 'https://myosa-sensors.org', // Redirect URL when clicking the title/logo
                     target: '_self', // Ensures it opens in the current tab
 
