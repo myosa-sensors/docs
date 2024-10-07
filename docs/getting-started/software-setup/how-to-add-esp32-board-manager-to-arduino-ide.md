@@ -30,3 +30,7 @@ Installing a board package is quick and easy, but let's take a look at what we n
 6. This will begin the installation process, which usually takes some time.  
 
    ![Step 6 Image](./images/image6.png)
+
+7. After successful installation esp32 board manager will be installed in your Arduino IDE. You can find the esp32 board in your Arduino IDE by going to `Tools > Board > esp32`
+
+   ![Step 7 Image](./images/image6-1.png)

@@ -9,7 +9,7 @@ sidebar_position: 3
 Libraries are a collection of code that makes it easy for you to connect to a sensor, display, module, etc. Libraries make it easy to read sensor values without getting into the actual code. To use any library, you will need to download and install that.
 
 
-1. Go to the [MYOSA Libraries GitHub page](https://github.com/pegasus-automation/myosa). Click on **Code** and then click on **Download ZIP**.
+1. Go to the [MYOSA Libraries GitHub page](https://github.com/myosa-sensors/arduino-libraries). Click on **Code** and then click on **Download ZIP**.
 
    ![Step 1 Image](./images/image7.png)
 
